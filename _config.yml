@@ -1,0 +1,23 @@
+title: HistoryOut
+description: Export Chrome browsing history in various formats
+url: "https://historyout.site"
+baseurl: ""
+
+# Theme settings
+theme: jekyll-theme-cayman
+show_downloads: true
+
+# SEO settings
+author: Saulius
+twitter:
+  username: historyout
+social:
+  name: HistoryOut
+  links:
+    - https://chrome.google.com/webstore/detail/historyout
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap 
