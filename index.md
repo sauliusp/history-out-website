@@ -40,7 +40,8 @@ title: HistoryOut - Chrome History Export Tool
     <div class="feature-card">
       <h3>✅ User-Friendly Interface</h3>
       <p>Simple, intuitive design for seamless exports.</p>
-    </div>  
+    </div>
+
   </div>
 </div>
 
