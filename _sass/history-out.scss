@@ -1,0 +1,69 @@
+.features-grid {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+
+  @include large {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include medium {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include small {
+    grid-template-columns: 1fr;
+  }
+}
+
+.main-content {
+  @include large {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    @include medium {
+      font-size: 1.5em;
+    }
+
+    @include small {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.feature-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+
+  @include small {
+    padding: 0.5rem 0;
+  }
+
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .feature-content {
+    flex: 1;
+    position: relative;
+    top: 10px;
+
+    h3 {
+      color: $section-headings-color;
+      margin: 0 0 0.5rem 0;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0;
+      color: $body-text-color;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+  }
+}
