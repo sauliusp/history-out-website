@@ -14,6 +14,10 @@
   @include small {
     grid-template-columns: 1fr;
   }
+
+  &.full-width {
+    grid-template-columns: 1fr;
+  }
 }
 
 .main-content {
@@ -40,18 +44,28 @@
 
   @include small {
     padding: 0.5rem 0;
+    gap: 0.5rem;
   }
 
   .feature-icon {
     width: 48px;
     height: 48px;
     object-fit: contain;
+
+    @include small {
+      width: 24px;
+      height: 24px;
+    }
   }
 
   .feature-content {
     flex: 1;
     position: relative;
     top: 10px;
+
+    @include small {
+      top: 0;
+    }
 
     h3 {
       color: $section-headings-color;
@@ -65,5 +79,38 @@
       font-size: 0.95rem;
       line-height: 1.4;
     }
+  }
+}
+
+footer {
+  .btn {
+    margin-bottom: 0;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.header-logo {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+
+  @include medium {
+    max-width: 400px;
+  }
+
+  @include small {
+    max-width: 280px;
   }
 }

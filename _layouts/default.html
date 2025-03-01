@@ -14,22 +14,39 @@
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-    
+
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+
+      <a href="{{ site.data.urls.chrome_store }}" target="_blank" rel="noopener">
+        <img src="assets/images/logo.svg" alt="HistoryOut logo" class="header-logo">
+      </a>
+
+      <h1 class="project-name sr-only">Export Your Chrome History with HistoryOut</h1>
+      <h2 class="project-tagline">Export and analyze your Chrome history with custom date ranges. Download in CSV, JSON or HTML formats.</h2>
       
-      <a href="{{ site.data.urls.chrome_store }}" class="btn">Install Now</a>
-      <a href="{{ site.data.urls.chrome_store_support }}" class="btn">Get Support</a>
-      <a href="{{ site.data.urls.chrome_store_review }}" class="btn">Rate & Review</a>
+      <nav aria-label="Primary navigation">
+        <a href="{{ site.data.urls.chrome_store }}" class="btn primary-btn" target="_blank" rel="noopener">
+          Add to Chrome
+        <a href="{{ site.data.urls.chrome_store_support }}" class="btn" target="_blank" rel="noopener">
+          Get Support
+        <a href="{{ site.data.urls.chrome_store_review }}" class="btn" target="_blank" rel="noopener">
+          Write a Review
+        </a>
+      </nav>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>
 
-    <footer class="site-footer">
-      footer
+    <footer class="page-header">
+      <a href="{{ site.data.urls.chrome_store }}" class="btn primary-btn" target="_blank" rel="noopener">
+        Add to Chrome
+      <a href="{{ site.data.urls.chrome_store_support }}" class="btn" target="_blank" rel="noopener">
+        Get Support
+      <a href="{{ site.data.urls.chrome_store_review }}" class="btn" target="_blank" rel="noopener">
+        Write a Review
+      </a>
     </footer>
   </body>
 </html>
