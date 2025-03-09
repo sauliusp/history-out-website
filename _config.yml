@@ -1,5 +1,7 @@
+# Site settings
 title: HistoryOut
-description: Export Chrome browsing history in various formats
+tagline: Export Chrome browsing history in various formats
+description: Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON or HTML formats. Free browser extension for Chrome.
 url: "https://historyout.site"
 baseurl: ""
 
@@ -8,16 +10,42 @@ theme: jekyll-theme-cayman
 show_downloads: true
 
 # SEO settings
-author: Saulius
-twitter:
-  username: historyout
+author:
+  name: Saulius
+  url: https://historyout.site
+
+# Social and SEO
 social:
   name: HistoryOut
   links:
-    - https://chrome.google.com/webstore/detail/historyout
+    - https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei
+
+# Schema.org
+schema:
+  type: WebApplication
+  name: HistoryOut
+  description: Chrome extension for exporting browsing history in multiple formats
+  url: https://historyout.site
+  author:
+    type: Person
+    name: Saulius
+  applicationCategory: Chrome Extension
+  browserRequirements: "Requires Chrome browser"
+  offers:
+    type: Offer
+    price: "0"
+    priceCurrency: USD
+    availability: https://schema.org/InStock
+
+# Language and locale
+lang: en_US
+locale: en_US
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Additional meta tags
+google_site_verification: J9EsmoQ_afZAfv1vTpVgo5bu_xHrSMfvtdjN_fUqgrs
