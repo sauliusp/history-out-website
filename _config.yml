@@ -20,34 +20,35 @@ social:
   links:
     - https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei
 
-# Schema.org
-schema:
+# JSON-LD Type
+seo:
   type: WebApplication
-  name: HistoryOut
-  description: Chrome extension for exporting browsing history in multiple formats
-  url: https://historyout.site
-  author:
-    type: Person
-    name: Saulius
-  applicationCategory: Chrome Extension
-  browserRequirements: "Requires Chrome browser"
+
+# Schema.org (more detailed)
+schema:
+  "@context": "https://schema.org"
+  "@type": "WebApplication"
+  name: "HistoryOut"
+  applicationCategory: "Chrome Extension"
+  operatingSystem: "Chrome"
   offers:
-    type: Offer
+    "@type": "Offer"
     price: "0"
-    priceCurrency: USD
-    availability: https://schema.org/InStock
-  mainEntity:
-    type: Article
-    hasPart:
-      - type: WebPageElement
-        name: Why Use HistoryOut
-        position: 1
-      - type: WebPageElement
-        name: Key Features
-        position: 2
-      - type: WebPageElement
-        name: How HistoryOut Works
-        position: 3
+    priceCurrency: "USD"
+  description: "Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON or HTML formats."
+  creator:
+    "@type": "Person"
+    name: "Saulius"
+  hasPart:
+    - "@type": "WebPageElement"
+      name: "Why Use HistoryOut"
+      position: 1
+    - "@type": "WebPageElement"
+      name: "Key Features"
+      position: 2
+    - "@type": "WebPageElement"
+      name: "How HistoryOut Works"
+      position: 3
 
 # Language and locale
 lang: en_US
