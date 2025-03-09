@@ -36,6 +36,18 @@ schema:
     price: "0"
     priceCurrency: USD
     availability: https://schema.org/InStock
+  mainEntity:
+    type: Article
+    hasPart:
+      - type: WebPageElement
+        name: Why Use HistoryOut
+        position: 1
+      - type: WebPageElement
+        name: Key Features
+        position: 2
+      - type: WebPageElement
+        name: How HistoryOut Works
+        position: 3
 
 # Language and locale
 lang: en_US

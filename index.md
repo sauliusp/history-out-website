@@ -4,7 +4,7 @@ title: "HistoryOut - Export Your Chrome History"
 description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extension"
 ---
 
-# Why Use HistoryOut?
+<h1 id="why-use-historyout">Why Use HistoryOut?</h1>
 
 <div class="features-grid">
   <div class="feature-card">
@@ -32,7 +32,7 @@ description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extensi
   </div>
 </div>
 
-# Key Features
+<h1 id="key-features">Key Features</h1>
 
 <div class="features-grid">
   <div class="feature-card">
@@ -88,11 +88,10 @@ description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extensi
   <img src="assets/images/Marquee image-100.jpg" alt="HistoryOut Chrome extension interface screenshot" class="banner-image"> 
 </a>
 
-# How HistoryOut Works
+<h1 id="how-historyout-works">How HistoryOut Works</h1>
 
 <div class="features-grid full-width">
   <div class="feature-card">
-    <img src="assets/images/icon48.png" alt="" class="feature-icon" role="presentation">
     <div class="feature-content">
       <h3>1. Select Export Format</h3>
       <img src="assets/images/2.jpg" alt="Screenshot showing export format selection interface" class="feature-screenshot">
@@ -100,7 +99,6 @@ description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extensi
   </div>
 
   <div class="feature-card">
-    <img src="assets/images/icon48.png" alt="" class="feature-icon" role="presentation">
     <div class="feature-content">
       <h3>2. Choose Time Period</h3>
       <img src="assets/images/3.jpg" alt="Screenshot showing time period selection options" class="feature-screenshot">
@@ -108,7 +106,6 @@ description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extensi
   </div>
 
   <div class="feature-card">
-    <img src="assets/images/icon48.png" alt="" class="feature-icon" role="presentation">
     <div class="feature-content">
       <h3>3. Set Custom Dates</h3>
       <img src="assets/images/4.jpg" alt="Screenshot showing custom date range selector" class="feature-screenshot">
@@ -116,7 +113,6 @@ description: "Export Chrome History to CSV, JSON, or HTML - Free Browser Extensi
   </div>
 
   <div class="feature-card">
-    <img src="assets/images/icon48.png" alt="" class="feature-icon" role="presentation">
     <div class="feature-content">
       <h3>4. Select Export Fields</h3>
       <img src="assets/images/5.jpg" alt="Screenshot showing export field selection options" class="feature-screenshot">
