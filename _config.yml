@@ -1,9 +1,7 @@
 # Site settings
 title: HistoryOut
-tagline: Export Chrome browsing history in various formats
-description: Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON or HTML formats. Free browser extension for Chrome.
-url: "https://historyout.site"
-baseurl: ""
+description: Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON, or HTML formats. Free browser extension for Chrome.
+url: "https://www.historyout.site"
 
 # Theme settings
 theme: jekyll-theme-cayman
@@ -12,47 +10,16 @@ show_downloads: true
 # SEO settings
 author:
   name: Saulius
-  url: https://historyout.site
+  url: "https://www.historyout.site"
 
-# Social and SEO
+# Social links (used by jekyll-seo-tag)
 social:
   name: HistoryOut
   links:
-    - https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei
+    - "https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei"
 
-# JSON-LD Type
-seo:
-  type: WebApplication
-
-# Schema.org (more detailed)
-schema:
-  "@context": "https://schema.org"
-  "@type": "WebApplication"
-  name: "HistoryOut"
-  applicationCategory: "Chrome Extension"
-  operatingSystem: "Chrome"
-  offers:
-    "@type": "Offer"
-    price: "0"
-    priceCurrency: "USD"
-  description: "Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON or HTML formats."
-  creator:
-    "@type": "Person"
-    name: "Saulius"
-  hasPart:
-    - "@type": "WebPageElement"
-      name: "Why Use HistoryOut"
-      position: 1
-    - "@type": "WebPageElement"
-      name: "Key Features"
-      position: 2
-    - "@type": "WebPageElement"
-      name: "How HistoryOut Works"
-      position: 3
-
-# Language and locale
+# Language settings
 lang: en_US
-locale: en_US
 
 # Build settings
 markdown: kramdown
@@ -60,8 +27,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Additional meta tags
-google_site_verification: J9EsmoQ_afZAfv1vTpVgo5bu_xHrSMfvtdjN_fUqgrs
-
-# Google Analytics
+# Google Services
+google_site_verification: "J9EsmoQ_afZAfv1vTpVgo5bu_xHrSMfvtdjN_fUqgrs"
 google_analytics: "G-08VGKYN4DC"
