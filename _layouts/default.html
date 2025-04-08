@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en" }}">
   <head>
     <meta charset="UTF-8">
 
@@ -13,17 +13,17 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <a id="skip-to-content" href="#content" class="skip-link">Skip to the content.</a>
     <header class="page-header" role="banner">
-      <nav class="page-nav" aria-label="Page navigation">
+      <nav class="page-nav" aria-label="Main site navigation">
         <div class="nav-container">
-          <a href="/" class="nav-logo" target="_blank" rel="noopener">
+          <a href="/" class="nav-logo" aria-label="HistoryOut Homepage">
             <img src="assets/images/logo.svg" alt="HistoryOut - Chrome History Export Tool" class="header-logo">
           </a>
-          <ul class="nav-links">
-            <li><a href="#how-historyout-works">How It Works</a></li>
-            <li><a href="#why-use-historyout">Why HistoryOut</a></li>
-            <li><a href="#key-features">Key Features</a></li>
+          <ul class="nav-links" role="list">
+            <li><a href="#how-historyout-works" aria-label="Learn how HistoryOut works">How It Works</a></li>
+            <li><a href="#why-use-historyout" aria-label="Discover why to use HistoryOut">Why HistoryOut</a></li>
+            <li><a href="#key-features" aria-label="View key features">Key Features</a></li>
           </ul>
         </div>
       </nav>
@@ -31,25 +31,15 @@
       <h1 class="project-name sr-only">Chrome Extension to export Chrome History in Excel-readable CSV, JSON or HTML formats. Use custom date ranges and customize the output fields.</h1>
       <h2 class="project-tagline">Export Chrome History in Excel-readable CSV, JSON or HTML formats. For Free.</h2>
       
-      <nav aria-label="Primary navigation">
-        <a href="{{ site.data.urls.chrome_store }}" class="btn primary-btn" target="_blank" rel="noopener">
-          Add Chrome Extension
-        </a>
+      <nav aria-label="Chrome store navigation">
+        {% include add-to-chrome-button.html %}
       </nav>
     </header>
 
-    <main id="content" class="main-content" role="main">
-      <h1 class="sr-only">
-        About HistoryOut - Export Chrome History Extension
-      </h1>
-
-      {{ content }}
-    </main>
-
-    <footer class="page-header">
-      <a href="{{ site.data.urls.chrome_store }}" class="btn primary-btn" target="_blank" rel="noopener">
-        Add Chrome Extension
-      </a>
+    {{ content }}
+    
+    <footer class="page-header" role="contentinfo">
+      {% include add-to-chrome-button.html %}
     </footer>
   </body>
 </html>
