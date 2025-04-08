@@ -3,20 +3,6 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebSite",
-        "name": "HistoryOut Website",
-        "url": "https://www.historyout.site/",
-        "description": "Export Chrome browsing history with custom date ranges. Download in CSV, JSON, or HTML formats.",
-        "sameAs": [
-          "https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei"
-        ],
-        "publisher": {
-          "@type": "Person",
-          "name": "Saulius",
-          "url": "https://www.historyout.site"
-        }
-      },
-      {
         "@type": "SoftwareApplication",
         "name": "HistoryOut Chrome Extension",
         "operatingSystem": "Chrome",
@@ -26,15 +12,15 @@
           "price": "0",
           "priceCurrency": "USD"
         },
-        "description": "Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON, or HTML formats.",
-        "url": "https://www.historyout.site/",
+        "description": "HistoryOut - Free Chrome Extension to export Chrome History in Excel-readable CSV, JSON or HTML formats. Use custom date ranges and customize the output fields.",
+        "url": "https://historyout.site/",
         "downloadUrl": "https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei",
         "creator": {
           "@type": "Person",
           "name": "Saulius",
-          "url": "https://www.historyout.site"
+          "url": "https://historyout.site"
         },
-        "image": "https://www.historyout.site/assets/images/logo.svg"
+        "image": "https://historyout.site/assets/images/logo.svg"
       },
       {
         "@type": "FAQPage",
@@ -45,7 +31,7 @@
             "name": "How can I export my Chrome history?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can use the HistoryOut extension to export your browsing history in CSV, JSON, or HTML format. Select your preferred format and time range, then download your history file."
+              "text": "Using HistoryOut is simple: 1) Select your preferred export format (CSV, JSON, or HTML), 2) Choose your time period (24 hours, week, month, or custom range), 3) For custom ranges, set specific start and end dates, 4) Select which data fields to include in your export. Your settings are saved between sessions for convenience."
             }
           },
           {
@@ -61,7 +47,7 @@
             "name": "Does HistoryOut store my browsing data?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No, HistoryOut does not store any of your browsing history. All exports are done locally on your device."
+              "text": "No, HistoryOut is 100% private and runs entirely within your browser. No data is sent or stored on external servers - there's no backend, no tracking, and no third-party access. Everything stays on your device."
             }
           },
           {
@@ -69,7 +55,31 @@
             "name": "What export formats are supported?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "HistoryOut allows you to export your browsing history in CSV, JSON, and HTML formats."
+              "text": "HistoryOut supports three export formats: CSV (for easy analysis in Excel or Google Sheets), JSON (ideal for developers or structured data processing), and HTML (to save and browse your history like a webpage)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What information can I include in my exports?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can customize the level of detail in your exports by selecting which data fields to include, such as URLs, titles, visit counts, and timestamps. You can adjust these settings to export exactly what you need."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How flexible is the date range selection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HistoryOut offers full control over date ranges. You can select preset options like last 24 hours, week, or month, or use the custom date range picker to export history from any specific day, week, or month of your choice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are my export preferences saved?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, HistoryOut saves your export settings between sessions, so you don't have to reconfigure your preferences every time you use the extension."
             }
           }
         ]
@@ -82,55 +92,25 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.historyout.site/"
+            "item": "https://historyout.site/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "How It Works",
-            "item": "https://www.historyout.site/#how-historyout-works"
+            "item": "https://historyout.site/#how-historyout-works"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Why HistoryOut",
-            "item": "https://www.historyout.site/#why-use-historyout"
+            "item": "https://historyout.site/#why-use-historyout"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Overview",
-            "item": "https://www.historyout.site/#overview"
-          }
-        ]
-      },
-      {
-        "@type": "HowTo",
-        "name": "How to Export Chrome History with HistoryOut",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Select Export Format",
-            "text": "Choose between CSV, JSON, and HTML export formats",
-            "image": "https://www.historyout.site/assets/images/1.jpg"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Choose Time Period",
-            "text": "Select from last 24 hours, week, month, or custom range",
-            "image": "https://www.historyout.site/assets/images/2.jpg"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Set Custom Dates",
-            "text": "Select specific start and end dates for your history export",
-            "image": "https://www.historyout.site/assets/images/3.jpg"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Select Export Fields",
-            "text": "Choose which data fields to include in your export",
-            "image": "https://www.historyout.site/assets/images/4.jpg"
+            "item": "https://historyout.site/#overview"
           }
         ]
       }
