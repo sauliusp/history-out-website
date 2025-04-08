@@ -1,7 +1,7 @@
 # Site settings
 title: HistoryOut
-description: Export and analyze your Chrome browsing history with custom date ranges. Download in CSV, JSON, or HTML formats. Free browser extension for Chrome.
-url: "https://www.historyout.site"
+description: Export Chrome History in Excel-readable CSV, JSON or HTML formats. Use custom date ranges and customize the output fields. Free browser extension for Chrome.
+url: "https://historyout.site"
 
 # Theme settings
 theme: jekyll-theme-cayman
@@ -10,7 +10,7 @@ show_downloads: true
 # SEO settings
 author:
   name: Saulius
-  url: "https://www.historyout.site"
+  url: "https://historyout.site"
 
 # Social links (used by jekyll-seo-tag)
 social:
@@ -19,7 +19,7 @@ social:
     - "https://chrome.google.com/webstore/detail/historyout/idohnkdgejocejlkihihonhemndpiiei"
 
 # Language settings
-lang: en_US
+lang: en
 
 # Build settings
 markdown: kramdown

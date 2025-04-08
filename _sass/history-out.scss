@@ -28,6 +28,20 @@
   @include medium {
     padding: 1rem 2rem 2rem;
   }
+
+  .project-tagline {
+    @include large {
+      font-size: 1.65rem;
+    }
+
+    @include medium {
+      font-size: 1.4rem;
+    }
+
+    @include small {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 .main-content {
