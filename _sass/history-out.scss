@@ -59,14 +59,18 @@ aside {
   }
 }
 
-.main-content {
-  @include large {
-    padding: 2rem 0;
-  }
+.main-wrapper {
+  width: 100%;
+  padding: 2rem;
 
-  @include medium {
-    padding: 2rem;
+  @include small {
+    padding: 1.5rem;
   }
+}
+
+.main-content {
+  width: 100%;
+  padding: 0;
 
   h1 {
     @include medium {

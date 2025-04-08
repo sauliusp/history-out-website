@@ -1,6 +1,6 @@
 # Site settings
 title: HistoryOut
-description: HistoryOut - Free Chrome Extension to export Chrome History in Excel-readable CSV, JSON or HTML formats. Use custom date ranges and customize the output fields.
+description: Free Export Chrome History Extension. Export Chrome History in Excel-readable CSV, JSON or HTML formats. Use custom date ranges and customize the output fields.
 url: "https://historyout.site"
 
 # Theme settings
