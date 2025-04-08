@@ -1,3 +1,14 @@
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+article,
+aside {
+  margin-bottom: 1.5rem;
+}
+
 .features-grid {
   display: grid;
   gap: 2rem;
@@ -17,6 +28,10 @@
 
   &.full-width {
     grid-template-columns: 1fr;
+
+    .feature-card {
+      padding: 0;
+    }
   }
 }
 
